@@ -61,6 +61,7 @@ namespace ExampleElemetsForms
         {
             //textBox2.Text = textBox1.Text;
             textBox2.AppendText("\r\n" + textBox1.Text);
+            textBox2.AppendText(Environment.NewLine + textBox1.Text);
         }
     }
 }
